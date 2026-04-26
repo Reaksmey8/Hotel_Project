@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xlnt-populate"
+		],
+		"name" : "xlnt-populate"
+	}
+}

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\xlnt.dir/objects.a
+C:\mingw64\mingw64\bin\ar.exe qc CMakeFiles\xlnt.dir/objects.a @CMakeFiles\xlnt.dir\objects1.rsp
+C:\mingw64\mingw64\bin\g++.exe  -Wall -Wextra -Wno-unknown-pragmas -Wno-maybe-uninitialized -shared -o libxlnt.dll -Wl,--out-implib,libxlnt.dll.a -Wl,--major-image-version,1,--minor-image-version,5 -Wl,--whole-archive CMakeFiles\xlnt.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\xlnt.dir\linklibs.rsp
