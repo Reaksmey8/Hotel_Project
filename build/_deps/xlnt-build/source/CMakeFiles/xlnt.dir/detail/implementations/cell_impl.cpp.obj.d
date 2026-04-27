@@ -168,17 +168,15 @@ _deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/implementations/cell_impl.cpp
  C:/mingw64/mingw64/x86_64-w64-mingw32/include/assert.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
  C:/mingw64/mingw64/x86_64-w64-mingw32/include/math.h \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/sheet_view.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/pane.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/cell/cell_reference.hpp \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/selection.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/range_reference.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/source/detail/implementations/cell_impl.hpp \
+ C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/cell/cell_type.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/cell/comment.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/cell/rich_text.hpp \
@@ -190,6 +188,8 @@ _deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/implementations/cell_impl.cpp
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/source/detail/implementations/format_impl.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/alignment.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/border.hpp \
+ C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
+ C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/fill.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/number_format.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/protection.hpp \

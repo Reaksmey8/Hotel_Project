@@ -142,7 +142,4 @@ _deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/range_reference.cpp.obj: \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h
+ C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits

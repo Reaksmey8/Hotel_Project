@@ -174,6 +174,19 @@ hotel/fast:
 .PHONY : hotel/fast
 
 #=============================================================================
+# Target rules for targets named xlnt.test
+
+# Build rule for target.
+xlnt.test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 xlnt.test
+.PHONY : xlnt.test
+
+# fast build rule for target.
+xlnt.test/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\xlnt-build\tests\CMakeFiles\xlnt.test.dir\build.make _deps/xlnt-build/tests/CMakeFiles/xlnt.test.dir/build
+.PHONY : xlnt.test/fast
+
+#=============================================================================
 # Target rules for targets named xlnt
 
 # Build rule for target.
@@ -372,6 +385,7 @@ help:
 	@echo ... hotel
 	@echo ... libstudxml
 	@echo ... xlnt
+	@echo ... xlnt.test
 	@echo ... src/booking.obj
 	@echo ... src/booking.i
 	@echo ... src/booking.s

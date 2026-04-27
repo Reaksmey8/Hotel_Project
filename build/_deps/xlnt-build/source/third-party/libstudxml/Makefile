@@ -174,221 +174,221 @@ libstudxml/fast:
 	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/build
 .PHONY : libstudxml/fast
 
-__/libstudxml/libstudxml/details/expat/xmlparse.obj: __/libstudxml/libstudxml/details/expat/xmlparse.c.obj
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlparse.obj
+libstudxml/details/expat/xmlparse.obj: libstudxml/details/expat/xmlparse.c.obj
+.PHONY : libstudxml/details/expat/xmlparse.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/details/expat/xmlparse.c.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlparse.c.obj
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlparse.c.obj
+libstudxml/details/expat/xmlparse.c.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmlparse.c.obj
+.PHONY : libstudxml/details/expat/xmlparse.c.obj
 
-__/libstudxml/libstudxml/details/expat/xmlparse.i: __/libstudxml/libstudxml/details/expat/xmlparse.c.i
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlparse.i
+libstudxml/details/expat/xmlparse.i: libstudxml/details/expat/xmlparse.c.i
+.PHONY : libstudxml/details/expat/xmlparse.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/details/expat/xmlparse.c.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlparse.c.i
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlparse.c.i
+libstudxml/details/expat/xmlparse.c.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmlparse.c.i
+.PHONY : libstudxml/details/expat/xmlparse.c.i
 
-__/libstudxml/libstudxml/details/expat/xmlparse.s: __/libstudxml/libstudxml/details/expat/xmlparse.c.s
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlparse.s
+libstudxml/details/expat/xmlparse.s: libstudxml/details/expat/xmlparse.c.s
+.PHONY : libstudxml/details/expat/xmlparse.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/details/expat/xmlparse.c.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlparse.c.s
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlparse.c.s
+libstudxml/details/expat/xmlparse.c.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmlparse.c.s
+.PHONY : libstudxml/details/expat/xmlparse.c.s
 
-__/libstudxml/libstudxml/details/expat/xmlrole.obj: __/libstudxml/libstudxml/details/expat/xmlrole.c.obj
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlrole.obj
+libstudxml/details/expat/xmlrole.obj: libstudxml/details/expat/xmlrole.c.obj
+.PHONY : libstudxml/details/expat/xmlrole.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/details/expat/xmlrole.c.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlrole.c.obj
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlrole.c.obj
+libstudxml/details/expat/xmlrole.c.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmlrole.c.obj
+.PHONY : libstudxml/details/expat/xmlrole.c.obj
 
-__/libstudxml/libstudxml/details/expat/xmlrole.i: __/libstudxml/libstudxml/details/expat/xmlrole.c.i
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlrole.i
+libstudxml/details/expat/xmlrole.i: libstudxml/details/expat/xmlrole.c.i
+.PHONY : libstudxml/details/expat/xmlrole.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/details/expat/xmlrole.c.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlrole.c.i
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlrole.c.i
+libstudxml/details/expat/xmlrole.c.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmlrole.c.i
+.PHONY : libstudxml/details/expat/xmlrole.c.i
 
-__/libstudxml/libstudxml/details/expat/xmlrole.s: __/libstudxml/libstudxml/details/expat/xmlrole.c.s
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlrole.s
+libstudxml/details/expat/xmlrole.s: libstudxml/details/expat/xmlrole.c.s
+.PHONY : libstudxml/details/expat/xmlrole.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/details/expat/xmlrole.c.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlrole.c.s
-.PHONY : __/libstudxml/libstudxml/details/expat/xmlrole.c.s
+libstudxml/details/expat/xmlrole.c.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmlrole.c.s
+.PHONY : libstudxml/details/expat/xmlrole.c.s
 
-__/libstudxml/libstudxml/details/expat/xmltok.obj: __/libstudxml/libstudxml/details/expat/xmltok.c.obj
-.PHONY : __/libstudxml/libstudxml/details/expat/xmltok.obj
+libstudxml/details/expat/xmltok.obj: libstudxml/details/expat/xmltok.c.obj
+.PHONY : libstudxml/details/expat/xmltok.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/details/expat/xmltok.c.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmltok.c.obj
-.PHONY : __/libstudxml/libstudxml/details/expat/xmltok.c.obj
+libstudxml/details/expat/xmltok.c.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmltok.c.obj
+.PHONY : libstudxml/details/expat/xmltok.c.obj
 
-__/libstudxml/libstudxml/details/expat/xmltok.i: __/libstudxml/libstudxml/details/expat/xmltok.c.i
-.PHONY : __/libstudxml/libstudxml/details/expat/xmltok.i
+libstudxml/details/expat/xmltok.i: libstudxml/details/expat/xmltok.c.i
+.PHONY : libstudxml/details/expat/xmltok.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/details/expat/xmltok.c.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmltok.c.i
-.PHONY : __/libstudxml/libstudxml/details/expat/xmltok.c.i
+libstudxml/details/expat/xmltok.c.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmltok.c.i
+.PHONY : libstudxml/details/expat/xmltok.c.i
 
-__/libstudxml/libstudxml/details/expat/xmltok.s: __/libstudxml/libstudxml/details/expat/xmltok.c.s
-.PHONY : __/libstudxml/libstudxml/details/expat/xmltok.s
+libstudxml/details/expat/xmltok.s: libstudxml/details/expat/xmltok.c.s
+.PHONY : libstudxml/details/expat/xmltok.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/details/expat/xmltok.c.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmltok.c.s
-.PHONY : __/libstudxml/libstudxml/details/expat/xmltok.c.s
+libstudxml/details/expat/xmltok.c.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/expat/xmltok.c.s
+.PHONY : libstudxml/details/expat/xmltok.c.s
 
-__/libstudxml/libstudxml/details/genx/char-props.obj: __/libstudxml/libstudxml/details/genx/char-props.c.obj
-.PHONY : __/libstudxml/libstudxml/details/genx/char-props.obj
+libstudxml/details/genx/char-props.obj: libstudxml/details/genx/char-props.c.obj
+.PHONY : libstudxml/details/genx/char-props.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/details/genx/char-props.c.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/char-props.c.obj
-.PHONY : __/libstudxml/libstudxml/details/genx/char-props.c.obj
+libstudxml/details/genx/char-props.c.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/genx/char-props.c.obj
+.PHONY : libstudxml/details/genx/char-props.c.obj
 
-__/libstudxml/libstudxml/details/genx/char-props.i: __/libstudxml/libstudxml/details/genx/char-props.c.i
-.PHONY : __/libstudxml/libstudxml/details/genx/char-props.i
+libstudxml/details/genx/char-props.i: libstudxml/details/genx/char-props.c.i
+.PHONY : libstudxml/details/genx/char-props.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/details/genx/char-props.c.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/char-props.c.i
-.PHONY : __/libstudxml/libstudxml/details/genx/char-props.c.i
+libstudxml/details/genx/char-props.c.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/genx/char-props.c.i
+.PHONY : libstudxml/details/genx/char-props.c.i
 
-__/libstudxml/libstudxml/details/genx/char-props.s: __/libstudxml/libstudxml/details/genx/char-props.c.s
-.PHONY : __/libstudxml/libstudxml/details/genx/char-props.s
+libstudxml/details/genx/char-props.s: libstudxml/details/genx/char-props.c.s
+.PHONY : libstudxml/details/genx/char-props.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/details/genx/char-props.c.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/char-props.c.s
-.PHONY : __/libstudxml/libstudxml/details/genx/char-props.c.s
+libstudxml/details/genx/char-props.c.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/genx/char-props.c.s
+.PHONY : libstudxml/details/genx/char-props.c.s
 
-__/libstudxml/libstudxml/details/genx/genx.obj: __/libstudxml/libstudxml/details/genx/genx.c.obj
-.PHONY : __/libstudxml/libstudxml/details/genx/genx.obj
+libstudxml/details/genx/genx.obj: libstudxml/details/genx/genx.c.obj
+.PHONY : libstudxml/details/genx/genx.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/details/genx/genx.c.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/genx.c.obj
-.PHONY : __/libstudxml/libstudxml/details/genx/genx.c.obj
+libstudxml/details/genx/genx.c.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/genx/genx.c.obj
+.PHONY : libstudxml/details/genx/genx.c.obj
 
-__/libstudxml/libstudxml/details/genx/genx.i: __/libstudxml/libstudxml/details/genx/genx.c.i
-.PHONY : __/libstudxml/libstudxml/details/genx/genx.i
+libstudxml/details/genx/genx.i: libstudxml/details/genx/genx.c.i
+.PHONY : libstudxml/details/genx/genx.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/details/genx/genx.c.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/genx.c.i
-.PHONY : __/libstudxml/libstudxml/details/genx/genx.c.i
+libstudxml/details/genx/genx.c.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/genx/genx.c.i
+.PHONY : libstudxml/details/genx/genx.c.i
 
-__/libstudxml/libstudxml/details/genx/genx.s: __/libstudxml/libstudxml/details/genx/genx.c.s
-.PHONY : __/libstudxml/libstudxml/details/genx/genx.s
+libstudxml/details/genx/genx.s: libstudxml/details/genx/genx.c.s
+.PHONY : libstudxml/details/genx/genx.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/details/genx/genx.c.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/genx.c.s
-.PHONY : __/libstudxml/libstudxml/details/genx/genx.c.s
+libstudxml/details/genx/genx.c.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/details/genx/genx.c.s
+.PHONY : libstudxml/details/genx/genx.c.s
 
-__/libstudxml/libstudxml/parser.obj: __/libstudxml/libstudxml/parser.cxx.obj
-.PHONY : __/libstudxml/libstudxml/parser.obj
+libstudxml/parser.obj: libstudxml/parser.cxx.obj
+.PHONY : libstudxml/parser.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/parser.cxx.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/parser.cxx.obj
-.PHONY : __/libstudxml/libstudxml/parser.cxx.obj
+libstudxml/parser.cxx.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/parser.cxx.obj
+.PHONY : libstudxml/parser.cxx.obj
 
-__/libstudxml/libstudxml/parser.i: __/libstudxml/libstudxml/parser.cxx.i
-.PHONY : __/libstudxml/libstudxml/parser.i
+libstudxml/parser.i: libstudxml/parser.cxx.i
+.PHONY : libstudxml/parser.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/parser.cxx.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/parser.cxx.i
-.PHONY : __/libstudxml/libstudxml/parser.cxx.i
+libstudxml/parser.cxx.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/parser.cxx.i
+.PHONY : libstudxml/parser.cxx.i
 
-__/libstudxml/libstudxml/parser.s: __/libstudxml/libstudxml/parser.cxx.s
-.PHONY : __/libstudxml/libstudxml/parser.s
+libstudxml/parser.s: libstudxml/parser.cxx.s
+.PHONY : libstudxml/parser.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/parser.cxx.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/parser.cxx.s
-.PHONY : __/libstudxml/libstudxml/parser.cxx.s
+libstudxml/parser.cxx.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/parser.cxx.s
+.PHONY : libstudxml/parser.cxx.s
 
-__/libstudxml/libstudxml/qname.obj: __/libstudxml/libstudxml/qname.cxx.obj
-.PHONY : __/libstudxml/libstudxml/qname.obj
+libstudxml/qname.obj: libstudxml/qname.cxx.obj
+.PHONY : libstudxml/qname.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/qname.cxx.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/qname.cxx.obj
-.PHONY : __/libstudxml/libstudxml/qname.cxx.obj
+libstudxml/qname.cxx.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/qname.cxx.obj
+.PHONY : libstudxml/qname.cxx.obj
 
-__/libstudxml/libstudxml/qname.i: __/libstudxml/libstudxml/qname.cxx.i
-.PHONY : __/libstudxml/libstudxml/qname.i
+libstudxml/qname.i: libstudxml/qname.cxx.i
+.PHONY : libstudxml/qname.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/qname.cxx.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/qname.cxx.i
-.PHONY : __/libstudxml/libstudxml/qname.cxx.i
+libstudxml/qname.cxx.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/qname.cxx.i
+.PHONY : libstudxml/qname.cxx.i
 
-__/libstudxml/libstudxml/qname.s: __/libstudxml/libstudxml/qname.cxx.s
-.PHONY : __/libstudxml/libstudxml/qname.s
+libstudxml/qname.s: libstudxml/qname.cxx.s
+.PHONY : libstudxml/qname.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/qname.cxx.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/qname.cxx.s
-.PHONY : __/libstudxml/libstudxml/qname.cxx.s
+libstudxml/qname.cxx.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/qname.cxx.s
+.PHONY : libstudxml/qname.cxx.s
 
-__/libstudxml/libstudxml/serializer.obj: __/libstudxml/libstudxml/serializer.cxx.obj
-.PHONY : __/libstudxml/libstudxml/serializer.obj
+libstudxml/serializer.obj: libstudxml/serializer.cxx.obj
+.PHONY : libstudxml/serializer.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/serializer.cxx.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/serializer.cxx.obj
-.PHONY : __/libstudxml/libstudxml/serializer.cxx.obj
+libstudxml/serializer.cxx.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/serializer.cxx.obj
+.PHONY : libstudxml/serializer.cxx.obj
 
-__/libstudxml/libstudxml/serializer.i: __/libstudxml/libstudxml/serializer.cxx.i
-.PHONY : __/libstudxml/libstudxml/serializer.i
+libstudxml/serializer.i: libstudxml/serializer.cxx.i
+.PHONY : libstudxml/serializer.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/serializer.cxx.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/serializer.cxx.i
-.PHONY : __/libstudxml/libstudxml/serializer.cxx.i
+libstudxml/serializer.cxx.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/serializer.cxx.i
+.PHONY : libstudxml/serializer.cxx.i
 
-__/libstudxml/libstudxml/serializer.s: __/libstudxml/libstudxml/serializer.cxx.s
-.PHONY : __/libstudxml/libstudxml/serializer.s
+libstudxml/serializer.s: libstudxml/serializer.cxx.s
+.PHONY : libstudxml/serializer.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/serializer.cxx.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/serializer.cxx.s
-.PHONY : __/libstudxml/libstudxml/serializer.cxx.s
+libstudxml/serializer.cxx.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/serializer.cxx.s
+.PHONY : libstudxml/serializer.cxx.s
 
-__/libstudxml/libstudxml/value-traits.obj: __/libstudxml/libstudxml/value-traits.cxx.obj
-.PHONY : __/libstudxml/libstudxml/value-traits.obj
+libstudxml/value-traits.obj: libstudxml/value-traits.cxx.obj
+.PHONY : libstudxml/value-traits.obj
 
 # target to build an object file
-__/libstudxml/libstudxml/value-traits.cxx.obj:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/value-traits.cxx.obj
-.PHONY : __/libstudxml/libstudxml/value-traits.cxx.obj
+libstudxml/value-traits.cxx.obj:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/value-traits.cxx.obj
+.PHONY : libstudxml/value-traits.cxx.obj
 
-__/libstudxml/libstudxml/value-traits.i: __/libstudxml/libstudxml/value-traits.cxx.i
-.PHONY : __/libstudxml/libstudxml/value-traits.i
+libstudxml/value-traits.i: libstudxml/value-traits.cxx.i
+.PHONY : libstudxml/value-traits.i
 
 # target to preprocess a source file
-__/libstudxml/libstudxml/value-traits.cxx.i:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/value-traits.cxx.i
-.PHONY : __/libstudxml/libstudxml/value-traits.cxx.i
+libstudxml/value-traits.cxx.i:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/value-traits.cxx.i
+.PHONY : libstudxml/value-traits.cxx.i
 
-__/libstudxml/libstudxml/value-traits.s: __/libstudxml/libstudxml/value-traits.cxx.s
-.PHONY : __/libstudxml/libstudxml/value-traits.s
+libstudxml/value-traits.s: libstudxml/value-traits.cxx.s
+.PHONY : libstudxml/value-traits.s
 
 # target to generate assembly for a file
-__/libstudxml/libstudxml/value-traits.cxx.s:
-	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/value-traits.cxx.s
-.PHONY : __/libstudxml/libstudxml/value-traits.cxx.s
+libstudxml/value-traits.cxx.s:
+	cd /d C:\Users\ASUS\Desktop\HotelProject\build && $(MAKE) $(MAKESILENT) -f _deps\xlnt-build\source\third-party\libstudxml\CMakeFiles\libstudxml.dir\build.make _deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml/value-traits.cxx.s
+.PHONY : libstudxml/value-traits.cxx.s
 
 # Help Target
 help:
@@ -403,33 +403,33 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... libstudxml
-	@echo ... __/libstudxml/libstudxml/details/expat/xmlparse.obj
-	@echo ... __/libstudxml/libstudxml/details/expat/xmlparse.i
-	@echo ... __/libstudxml/libstudxml/details/expat/xmlparse.s
-	@echo ... __/libstudxml/libstudxml/details/expat/xmlrole.obj
-	@echo ... __/libstudxml/libstudxml/details/expat/xmlrole.i
-	@echo ... __/libstudxml/libstudxml/details/expat/xmlrole.s
-	@echo ... __/libstudxml/libstudxml/details/expat/xmltok.obj
-	@echo ... __/libstudxml/libstudxml/details/expat/xmltok.i
-	@echo ... __/libstudxml/libstudxml/details/expat/xmltok.s
-	@echo ... __/libstudxml/libstudxml/details/genx/char-props.obj
-	@echo ... __/libstudxml/libstudxml/details/genx/char-props.i
-	@echo ... __/libstudxml/libstudxml/details/genx/char-props.s
-	@echo ... __/libstudxml/libstudxml/details/genx/genx.obj
-	@echo ... __/libstudxml/libstudxml/details/genx/genx.i
-	@echo ... __/libstudxml/libstudxml/details/genx/genx.s
-	@echo ... __/libstudxml/libstudxml/parser.obj
-	@echo ... __/libstudxml/libstudxml/parser.i
-	@echo ... __/libstudxml/libstudxml/parser.s
-	@echo ... __/libstudxml/libstudxml/qname.obj
-	@echo ... __/libstudxml/libstudxml/qname.i
-	@echo ... __/libstudxml/libstudxml/qname.s
-	@echo ... __/libstudxml/libstudxml/serializer.obj
-	@echo ... __/libstudxml/libstudxml/serializer.i
-	@echo ... __/libstudxml/libstudxml/serializer.s
-	@echo ... __/libstudxml/libstudxml/value-traits.obj
-	@echo ... __/libstudxml/libstudxml/value-traits.i
-	@echo ... __/libstudxml/libstudxml/value-traits.s
+	@echo ... libstudxml/details/expat/xmlparse.obj
+	@echo ... libstudxml/details/expat/xmlparse.i
+	@echo ... libstudxml/details/expat/xmlparse.s
+	@echo ... libstudxml/details/expat/xmlrole.obj
+	@echo ... libstudxml/details/expat/xmlrole.i
+	@echo ... libstudxml/details/expat/xmlrole.s
+	@echo ... libstudxml/details/expat/xmltok.obj
+	@echo ... libstudxml/details/expat/xmltok.i
+	@echo ... libstudxml/details/expat/xmltok.s
+	@echo ... libstudxml/details/genx/char-props.obj
+	@echo ... libstudxml/details/genx/char-props.i
+	@echo ... libstudxml/details/genx/char-props.s
+	@echo ... libstudxml/details/genx/genx.obj
+	@echo ... libstudxml/details/genx/genx.i
+	@echo ... libstudxml/details/genx/genx.s
+	@echo ... libstudxml/parser.obj
+	@echo ... libstudxml/parser.i
+	@echo ... libstudxml/parser.s
+	@echo ... libstudxml/qname.obj
+	@echo ... libstudxml/qname.i
+	@echo ... libstudxml/qname.s
+	@echo ... libstudxml/serializer.obj
+	@echo ... libstudxml/serializer.i
+	@echo ... libstudxml/serializer.s
+	@echo ... libstudxml/value-traits.obj
+	@echo ... libstudxml/value-traits.i
+	@echo ... libstudxml/value-traits.s
 .PHONY : help
 
 

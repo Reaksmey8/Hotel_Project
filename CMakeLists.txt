@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 project(HotelManagement)
+
 set(CMAKE_CXX_STANDARD 17)
 
 if(WIN32)
@@ -11,8 +12,9 @@ include(FetchContent)
 FetchContent_Declare(
     xlnt
     GIT_REPOSITORY https://github.com/tfussell/xlnt.git
-    GIT_TAG master
+    GIT_TAG v1.5.0
 )
+
 FetchContent_MakeAvailable(xlnt)
 
 include_directories(include)
@@ -26,8 +28,8 @@ add_executable(hotel
     src/util.cpp
 )
 
+target_link_libraries(hotel PRIVATE xlnt)
+
 if(MINGW)
     target_link_options(hotel PRIVATE -static-libgcc -static-libstdc++)
 endif()
-
-target_link_libraries(hotel PRIVATE xlnt)

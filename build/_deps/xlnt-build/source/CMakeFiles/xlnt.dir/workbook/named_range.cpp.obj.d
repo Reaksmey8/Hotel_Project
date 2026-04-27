@@ -115,13 +115,10 @@ _deps/xlnt-build/source/CMakeFiles/xlnt.dir/workbook/named_range.cpp.obj: \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/range_reference.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/cell/cell_reference.hpp \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/worksheet.hpp \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iterator \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
@@ -153,6 +150,7 @@ _deps/xlnt-build/source/CMakeFiles/xlnt.dir/workbook/named_range.cpp.obj: \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
+ C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
@@ -173,7 +171,6 @@ _deps/xlnt-build/source/CMakeFiles/xlnt.dir/workbook/named_range.cpp.obj: \
  C:/mingw64/mingw64/x86_64-w64-mingw32/include/assert.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
  C:/mingw64/mingw64/x86_64-w64-mingw32/include/math.h \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/sheet_view.hpp \

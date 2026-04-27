@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/third-party/libstudxml.build
+# Install script for directory: C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/third-party/libstudxml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

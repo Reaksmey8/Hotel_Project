@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 #include "util.hpp"
 #include "user.hpp"
 #include "room.hpp"
@@ -6,13 +7,18 @@
 #include "hotel.hpp"
 using namespace std;
 
-void adminMenu(RoomManager &rm, BookingManager &bm,
-               HotelInfo &hi, AuthManager &auth);
+void adminMenu(RoomManager &rm, BookingManager &bm, HotelInfo &hi, AuthManager &auth);
 void userMenu(RoomManager &rm, BookingManager &bm, AuthManager &auth);
-void showWelcomeBanner(const HotelInfo &hi);
+void showBanner(const HotelInfo &hi);
 
 int main()
 {
+    // Set working directory to exe location
+    char path[MAX_PATH];
+    GetModuleFileNameA(NULL, path, MAX_PATH);
+    string dir = string(path).substr(0, string(path).find_last_of("\\/"));
+    SetCurrentDirectoryA(dir.c_str());
+
     AuthManager auth;
     RoomManager rm("rooms.xlsx");
     BookingManager bm("bookings.xlsx");
@@ -21,37 +27,57 @@ int main()
     while (true)
     {
         clearScreen();
-        showWelcomeBanner(hi);
-        printMenu("MAIN MENU", {"[1] Login", "[2] Exit"});
-        int choice = getIntInput("Select: ", 1, 2);
+        showBanner(hi);
+        printMenu("MAIN MENU", {"[1] Login", "[2] Register", "[3] Exit"});
+        int ch = getIntInput("Select: ", 1, 3);
 
-        if (choice == 2)
+        if (ch == 3)
         {
-            printInfo("Goodbye! Thank you!");
+            printInfo("Goodbye!");
             break;
         }
 
-        int attempts = 0;
-        bool loggedIn = false;
-        while (attempts < 3)
+        if (ch == 2)
+        {
+            clearScreen();
+            bool ok = auth.registerUser();
+            if (ok)
+            {
+                // Go straight to user menu after register
+                if (auth.isAdmin())
+                    adminMenu(rm, bm, hi, auth);
+                else
+                    userMenu(rm, bm, auth);
+            }
+            continue;
+        }
+
+        // ch == 1: Login
+        int tries = 0;
+        bool ok = false;
+        while (tries < 3)
         {
             clearScreen();
             if (auth.login())
             {
-                loggedIn = true;
+                ok = true;
                 break;
             }
-            attempts++;
-            if (attempts < 3)
-                printInfo("Attempts remaining: " + to_string(3 - attempts));
+            tries++;
+            if (tries < 3)
+            {
+                printInfo("Attempts left: " + to_string(3 - tries));
+                pauseScreen();
+            }
         }
-        if (!loggedIn)
+        if (!ok)
         {
-            printError("Too many failed attempts.");
+            printError("Too many failed attempts!");
             pauseScreen();
             continue;
         }
 
+        pauseScreen();
         if (auth.isAdmin())
             adminMenu(rm, bm, hi, auth);
         else
@@ -60,23 +86,18 @@ int main()
     return 0;
 }
 
-// ── Admin Menu ────────────────────────────────────────────────
-void adminMenu(RoomManager &rm, BookingManager &bm,
-               HotelInfo &hi, AuthManager &auth)
+void adminMenu(RoomManager &rm, BookingManager &bm, HotelInfo &hi, AuthManager &auth)
 {
     while (true)
     {
         clearScreen();
-        printMenu("ADMIN MENU  [ " + auth.getUsername() + " ]", {"[1] View All Rooms",
-                                                                 "[2] Add  Room",
-                                                                 "[3] Delete Room",
-                                                                 "[4] Sort Rooms",
-                                                                 "[5] Search Rooms",
-                                                                 "[6] View All Bookings",
-                                                                 "[7] Revenue Report",
-                                                                 "[8] Hotel Information",
-                                                                 "[9] Edit Hotel Info",
-                                                                 "[0] Logout"});
+        rm.loadFromFile();
+        bm.loadFromFile();
+        printMenu("ADMIN MENU [ " + auth.getUsername() + " ]", {"[1] View All Rooms", "[2] Add Room",
+                                                                "[3] Delete Room", "[4] Sort Rooms",
+                                                                "[5] Search Rooms", "[6] View All Bookings",
+                                                                "[7] Revenue Report", "[8] Hotel Information",
+                                                                "[9] Edit Hotel Info", "[0] Logout"});
         int ch = getIntInput("Select: ", 0, 9);
         clearScreen();
         if (ch == 1)
@@ -100,24 +121,24 @@ void adminMenu(RoomManager &rm, BookingManager &bm,
         else
         {
             auth.logout();
-            pauseScreen();
             break;
         }
     }
 }
 
-// ── User Menu ─────────────────────────────────────────────────
 void userMenu(RoomManager &rm, BookingManager &bm, AuthManager &auth)
 {
     while (true)
     {
         clearScreen();
-        printMenu("USER MENU  [ " + auth.getUsername() + " ]", {"[1] View Available Rooms",
-                                                                "[2] Book a Room",
-                                                                "[3] Check Out",
-                                                                "[4] My Booking History",
-                                                                "[5] Search Rooms",
-                                                                "[6] Logout"});
+        rm.loadFromFile();
+        bm.loadFromFile();
+        printMenu("USER MENU [ " + auth.getUsername() + " ]", {"[1] View Available Rooms",
+                                                               "[2] Book a Room",
+                                                               "[3] Check Out",
+                                                               "[4] My Booking History",
+                                                               "[5] Search Rooms",
+                                                               "[6] Logout"});
         int ch = getIntInput("Select: ", 1, 6);
         clearScreen();
         if (ch == 1)
@@ -133,23 +154,20 @@ void userMenu(RoomManager &rm, BookingManager &bm, AuthManager &auth)
         else
         {
             auth.logout();
-            pauseScreen();
             break;
         }
     }
 }
 
-// ── Welcome Banner ────────────────────────────────────────────
-void showWelcomeBanner(const HotelInfo &hi)
+void showBanner(const HotelInfo &hi)
 {
-    Table banner;
-    banner.add_row({hi.getHotelName() + " - Management System"});
-    banner.add_row({"Address: " + hi.getAddress()});
-    banner.add_row({"Phone: " + hi.getPhone()});
-    banner.add_row({"Floors: " + to_string(hi.getTotalFloors()) +
-                    "  |  Total Rooms: " + to_string(hi.getTotalRooms())});
-    banner.add_row({"Accounts: admin/admin123  student/stu123  teacher/tea123"});
-    banner[0].format().font_style({FontStyle::bold}).font_align({FontAlign::center});
+    Table t;
+    t.add_row({hi.getHotelName() + " - Management System"});
+    t.add_row({"Address: " + hi.getAddress() + "  |  Phone: " + hi.getPhone()});
+    t.add_row({"Floors: " + to_string(hi.getTotalFloors()) +
+               "  |  Rooms: " + to_string(hi.getTotalRooms())});
+    t.add_row({"Admin: admin/admin123  |  New? Press [2] to Register"});
+    t[0].format().font_style({FontStyle::bold}).font_align({FontAlign::center});
     cout << "\n"
-         << banner << "\n";
+         << t << "\n";
 }

@@ -11,6 +11,13 @@ C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/CMakeFiles/list_instal
 C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/CMakeFiles/install.dir
 C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/CMakeFiles/install/local.dir
 C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/CMakeFiles/install/strip.dir
+C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/tests/CMakeFiles/xlnt.test.dir
+C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/tests/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/tests/CMakeFiles/rebuild_cache.dir
+C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/tests/CMakeFiles/list_install_components.dir
+C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/tests/CMakeFiles/install.dir
+C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/tests/CMakeFiles/install/local.dir
+C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/tests/CMakeFiles/install/strip.dir
 C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/source/CMakeFiles/xlnt.dir
 C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/source/CMakeFiles/uninstall.dir
 C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/source/CMakeFiles/edit_cache.dir

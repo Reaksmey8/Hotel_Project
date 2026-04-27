@@ -216,21 +216,20 @@ void BookingManager::bookRoom(const string &username)
     }
 
     // Show available rooms
-    Table table;
-    table.add_row({"Room#", "Type", "Price/Night", "Floor"});
-    table[0].format().font_style({FontStyle::bold}).font_align({FontAlign::center});
-    for (auto &r : available)
-    {
-        ostringstream price;
-        price << "$" << fixed << setprecision(2) << r.getPrice();
-        string floor = "Floor " + to_string((r.getRoomNumber() / 100));
-        table.add_row({to_string(r.getRoomNumber()),
-                       r.getTypeStr(),
-                       price.str(),
-                       floor});
-    }
-    cout << "\n"
-         << table << "\n";
+Table table;
+table.add_row({"Room#", "Type", "Price/Night", "Floor"});
+table[0].format().font_style({FontStyle::bold}).font_align({FontAlign::center});
+for (auto &r : available)
+{
+    ostringstream price;
+    price << "$" << fixed << setprecision(2) << r.getPrice();
+    string floor = "Floor " + to_string((r.getRoomNumber() / 100));
+    table.add_row({to_string(r.getRoomNumber()),
+                   r.getTypeStr(),
+                   price.str(),
+                   floor});
+}
+cout << "\n" << table << "\n";
 
     // Get booking details
     int roomNum = getIntInput("Enter Room Number to book: ", 1, 999);

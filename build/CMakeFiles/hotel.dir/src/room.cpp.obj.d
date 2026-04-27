@@ -216,11 +216,8 @@ CMakeFiles/hotel.dir/src/room.cpp.obj: \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/phonetic_pr.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/cell/cell_reference.hpp \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/cell/comment.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/cell/hyperlink.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/packaging/manifest.hpp \
@@ -229,6 +226,9 @@ CMakeFiles/hotel.dir/src/room.cpp.obj: \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/utils/path.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/alignment.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/border.hpp \
+ C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+ C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
+ C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/fill.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/format.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/number_format.hpp \
@@ -272,5 +272,4 @@ CMakeFiles/hotel.dir/src/room.cpp.obj: \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/styles/conditional_format.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/range_iterator.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/row_properties.hpp \
- C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/sheet_format_properties.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/sheet_protection.hpp

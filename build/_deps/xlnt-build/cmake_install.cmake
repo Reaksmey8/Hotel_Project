@@ -39,6 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/tests/cmake_install.cmake")
   include("C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-build/source/cmake_install.cmake")
 
 endif()

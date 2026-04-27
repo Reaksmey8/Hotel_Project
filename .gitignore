@@ -1,2 +1,7 @@
 build
 .vs code
+build/
+*.exe
+*.dll
+*.o
+*.obj

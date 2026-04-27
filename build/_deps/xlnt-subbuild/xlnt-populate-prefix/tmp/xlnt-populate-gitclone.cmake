@@ -32,12 +32,12 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "C:/Program Files/Git/cmd/git.exe"  checkout master --
+  COMMAND "C:/Program Files/Git/cmd/git.exe"  checkout v1.5.0 --
   WORKING_DIRECTORY "C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: 'master'")
+  message(FATAL_ERROR "Failed to checkout tag: 'v1.5.0'")
 endif()
 
 set(init_submodules TRUE)

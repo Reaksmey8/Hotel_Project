@@ -28,7 +28,7 @@ endmacro()
 
 get_filename_component(XLNT_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
 
-set_and_check(XLNT_INCLUDE_DIR "/usr/local/include")
+set_and_check(XLNT_INCLUDE_DIR "include")
 
 check_required_components(xlnt)
 

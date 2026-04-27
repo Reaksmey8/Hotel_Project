@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <vector>
 using namespace std;
 
 enum Role
@@ -8,31 +9,29 @@ enum Role
     NORMAL_USER
 };
 
-class User
+struct User
 {
-private:
     string username;
     string password;
+    string fullName;
     Role role;
-
-public:
-    User(string uname, string pwd, Role r);
-    string getUsername() const;
-    Role getRole() const;
-    bool checkPassword(const string &pwd) const;
 };
 
 class AuthManager
 {
 private:
-    User *currentUser;
+    vector<User> users;
+    int currentIndex; // -1 = not logged in
+    string filename;
+    void loadUsers();
 
 public:
     AuthManager();
-    ~AuthManager();
+    bool registerUser();
     bool login();
     void logout();
     bool isLoggedIn() const;
     bool isAdmin() const;
     string getUsername() const;
+    string getFullName() const;
 };

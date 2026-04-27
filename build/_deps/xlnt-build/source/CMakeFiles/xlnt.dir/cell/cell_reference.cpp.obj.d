@@ -106,14 +106,11 @@ _deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/cell_reference.cpp.obj: \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
  C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
- C:/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/utils/exceptions.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/include/xlnt/worksheet/range_reference.hpp \
  C:/Users/ASUS/Desktop/HotelProject/build/_deps/xlnt-src/source/detail/constants.hpp \
